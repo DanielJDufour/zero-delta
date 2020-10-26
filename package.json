@@ -1,0 +1,36 @@
+{
+  "name": "zero-delta",
+  "version": "0.0.0",
+  "description": "Compress an Array of Numbers Assuming No Change Between Items",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write *.js",
+    "setup": "cd test_data && gunzip years.txt.gz",
+    "test": "ava --timeout=2m --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielJDufour/zero-delta.git"
+  },
+  "keywords": [
+    "array",
+    "change",
+    "compression",
+    "delta",
+    "encoding",
+    "numbers"
+  ],
+  "author": "Daniel J. Dufour",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/DanielJDufour/zero-delta/issues"
+  },
+  "homepage": "https://github.com/DanielJDufour/zero-delta#readme",
+  "devDependencies": {
+    "ava": "^3.13.0",
+    "fast-max": "0.0.0",
+    "prettier": "^2.1.2",
+    "vectorizer": "0.0.1"
+  },
+  "dependencies": {}
+}
