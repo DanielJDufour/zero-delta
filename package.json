@@ -1,6 +1,6 @@
 {
   "name": "zero-delta",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Compress an Array of Numbers Assuming No Change Between Items",
   "main": "index.js",
   "scripts": {
