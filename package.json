@@ -30,6 +30,7 @@
     "ava": "^3.13.0",
     "fast-max": "0.0.0",
     "prettier": "^2.1.2",
+    "to-typed-array": "0.0.1",
     "vectorizer": "0.0.1"
   },
   "dependencies": {}
